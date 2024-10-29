@@ -25,7 +25,7 @@
             margin: 0;
         }
 
-        ul {
+        nav ul {
             width: 100vw;
             height: 10vh;
             margin: 0;
@@ -292,7 +292,135 @@
             padding-left: 5rem;
             padding-right: 5rem;
         }
+
+        .forth {
+            background-color: rgb(36, 35, 35);
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            gap: 0.75rem;
+        }
+
+        .forth-header {
+            font-size: 1.5rem;
+        }
+
+        .forth-subheader {
+            font-size: 2rem;
+        }
+
+        .forth img {
+            width: 20vw;
+            padding: 1rem;
+        }
+
+        .rating {
+            font-size: 1.5rem;
+        }
+
+        .forth p a:link,
+        .forth p a:visited {
+            color: white;
+        }
+
+        .fifth {
+            padding: 4rem 4rem 2rem 4rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .fifth-top-button {
+            text-align: center;
+        }
+
+        .fifth-headButton {
+            background-color: rgb(59, 182, 220);
+            width: 30vw;
+            padding: 1rem;
+            color: white;
+            font-size: 0.9rem;
+            font-weight: bold;
+            border: 0;
+            border-radius: 5px;
+        }
+
+        .fifth-body {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            padding: 5rem 5rem 0 5rem;
+        }
+
+        .fifth-col {
+            width: 12vw;
+            font-size: 0.9rem;
+        }
+
+        .fifth-col h4 {
+            margin-bottom: 2rem;
+        }
+
+        .fifth-col ul li {
+            margin: 0.25rem;
+        }
+
+        .fifth-col p {
+            margin: 1rem 0;
+        }
+
+        .fifth-col p input {
+            border: 1px solid rgb(222, 219, 219);
+            height: 1rem;
+            border-radius: 7px;
+            padding: 0.5rem;
+            width: 10vw;
+        }
+
+        .fifth-col button {
+            width: 11vw;
+            background-color: rgb(59, 182, 220);
+            padding: 0.6rem;
+            color: white;
+            font-size: 0.9rem;
+            font-weight: bold;
+            border: 0;
+            border-radius: 5px;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            gap: 40rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .footer-icon img {
+            width: 10rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-icon p {
+            font-size: 0.75rem;
+        }
+
+        .footer-links {
+            font-size: 1.5rem;
+            display: flex;
+            gap: 1rem;
+        }
+
+        .footer-links a:link,
+        .footer-links a:visited {
+            color: black;
+        }
     </style>
+
 </head>
 
 <body>
@@ -445,7 +573,100 @@
                 </div>
             </div>
         </section>
+        <section class="forth">
+            <p class="forth-header">User Testimonials</p>
+            <p class="forth-subheader">Take a look at what our users have to say.</p>
+            <p><img src="Stars.png" alt=""></p>
+            <p class="rating">Rated <b>4.7 out of 5</b></p>
+            <p>based on 1000+ user reviews</p>
+            <p><a href="">Read user reviews</a></p>
+        </section>
+
+        <section class="fifth">
+            <p class="fifth-top-button"><button class="fifth-headButton">TRY ULTRAEDIT</button></p>
+            <div class="fifth-body">
+                <div class="fifth-col">
+                    <h4>What’s your language?</h4>
+                    <ul>
+                        <li>Code editor (General)</li>
+                        <li>Text editor</li>
+                        <li>Hex/Binary</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Unix shell scripts</li>
+                        <li>PL/SQL</li>
+                        <li>EDI</li>
+                        <li>C++</li>
+                        <li>PHP</li>
+                        <li>XML</li>
+                        <li>Markdown</li>
+                        <li>SAS</li>
+                        <li>Visual Basic (VB)</li>
+                    </ul>
+                </div>
+                <div class="fifth-col">
+                    <h4>What do you need to do?</h4>
+                    <ul>
+                        <li>Edit large text files</li>
+                        <li>Use secure and compliant software</li>
+                        <li>Work with unique languages and formats</li>
+                        <li>Edit hex and binary files</li>
+                        <li>Reformat XML/JSON files</li>
+                        <li>Massive find and replace operations</li>
+                        <li>Edit via columns/blocks</li>
+                    </ul>
+                </div>
+                <div class="fifth-col">
+                    <h4>What type of user are you?</h4>
+                    <ul>
+                        <li> Programmer / Developer</li>
+                        <li>Web Developer</li>
+                        <li>Database Manager</li>
+                        <li>System Administrator</li>
+                        <li>Technical Writer</li>
+                        <li>Editor / Publisher</li>
+                        <li>Medical / Pharmaceutical</li>
+                    </ul>
+                </div>
+                <div class="fifth-col">
+                    <h4>General</h4>
+                    <ul>
+                        <li>Contact</li>
+                        <li>License Agreement (EULA)</li>
+                        <li>End of Life Policy</li>
+                        <li>Libraries and Patents</li>
+                        <li>Information Policy</li>
+                        <li>Privacy Policy</li>
+                        <li>Uninstall Instructions</li>
+                        <li>Sitemap</li>
+                        <li>Legal</li>
+                        <li>Software Security</li>
+                    </ul>
+                </div>
+                <div class="fifth-col">
+                    <h4>Subscribe to Newsletter</h4>
+                    <p>Get the latest news on new releases, event, and developments.</p>
+                    <p><input type="text" placeholder="Enter email address..."></p>
+                    <button type="submit">SUBSCRIBE</button>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <div class="footer-icon">
+            <img src="UE-Logo-1.webp" alt="">
+            <p>©2024 UltraEdit. All rights reserved</p>
+        </div>
+        <div class="footer-links">
+            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-reddit"></i></a>
+        </div>
+    </footer>
 </body>
 
 </html>
